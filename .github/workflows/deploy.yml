@@ -15,8 +15,10 @@ jobs:
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb+srv
       MONGODB_CLUSTER_ADDRESS: cluster0.lxyycd7.mongodb.net
-      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
-      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
+      # MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_USERNAME: dilnawazkhanengineer
+      # MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
+      MONGODB_PASSWORD: lRLcCHU50DwgGEFb
       PORT: 8080
     steps:
       - name: Get Code
