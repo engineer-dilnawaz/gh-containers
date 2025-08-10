@@ -16,8 +16,10 @@ jobs:
       MONGODB_CONNECTION_PROTOCOL: mongodb+srv
       MONGODB_CLUSTER_ADDRESS: cluster0.h8jpwri.mongodb.net
       MONGODB_URI: mongodb+srv://${{ secrets.MONGODB_USERNAME }}:${{ secrets.MONGODB_PASSWORD }}@cluster0.h8jpwri.mongodb.net/gha-demo?retryWrites=true&w=majority
-      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
-      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
+      # MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_USERNAME: dilnawazkhanengineer
+      # MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
+      MONGODB_PASSWORD: 2oS9cpSs7kTFGD0h
       PORT: 8080
     steps:
       - name: Get Code
