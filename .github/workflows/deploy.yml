@@ -15,7 +15,8 @@ jobs:
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb+srv
       MONGODB_CLUSTER_ADDRESS: cluster0.h8jpwri.mongodb.net
-      MONGODB_URI: mongodb+srv://${{ secrets.MONGODB_USERNAME }}:${{ secrets.MONGODB_PASSWORD }}@cluster0.h8jpwri.mongodb.net/gha-demo?retryWrites=true&w=majority
+      # MONGODB_URI: mongodb+srv://${{ secrets.MONGODB_USERNAME }}:${{ secrets.MONGODB_PASSWORD }}@cluster0.h8jpwri.mongodb.net/gha-demo?retryWrites=true&w=majority
+      MONGODB_URI: mongodb+srv://dilnawazkhanengineer:2oS9cpSs7kTFGD0h@cluster0.h8jpwri.mongodb.net/gha-demo?retryWrites=true&w=majority
       # MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
       MONGODB_USERNAME: dilnawazkhanengineer
       # MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
