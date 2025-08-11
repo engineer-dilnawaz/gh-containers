@@ -1,7 +1,8 @@
-import bodyParser from 'body-parser';
-import express from 'express';
+import bodyParser from "body-parser";
+import express from "express";
+import "dotenv/config"; // for ES modules
 
-import eventRoutes from './routes/events.js';
+import eventRoutes from "./routes/events.js";
 
 const app = express();
 
